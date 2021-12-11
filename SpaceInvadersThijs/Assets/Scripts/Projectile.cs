@@ -7,6 +7,18 @@ public class Projectile : MonoBehaviour
     // public variables
     public bool ownerPlayer;
 
+    // set lifetime of the procetile
+    private void Start()
+    {
+        StartCoroutine(LifeTime(5));
+    }
+
+    IEnumerator LifeTime(int pLifetime)
+    {
+        yield return new WaitForSeconds(pLifetime);
+        Destroy(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (ownerPlayer && collision.CompareTag("NPC"))

@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameStats : MonoBehaviour
 {
     // public variables
     public static GameStats gameStatsRef;
+    public AudioClip winClip;
+    public AudioClip loseClip;
     public Text scoreText;
-    public Image life1;
-    public Image life2;
-    public Image life3;
-    public Image noLife;
-    public Image life;
+    public Text healthText;
+    public Slider healthSlider;
+    public int countEnemies;
 
     // private variables
     private GameObject playerRef;
+    private AudioSource currentSound;
+    private bool isDead;
     private int maximumHP;
     private int currentHP;
     private int currentScore;
@@ -24,29 +27,27 @@ public class GameStats : MonoBehaviour
     // handle the static self refernce and set the player variable
     private void Awake()
     {
-        if (gameStatsRef != null)
-        {
-            Destroy(gameStatsRef);
-        }
-        else
-        {
-            gameStatsRef = this;
-        }
-        DontDestroyOnLoad(this);
+        gameStatsRef = this;
         playerRef = GameObject.Find("Player");
+        currentSound = gameObject.AddComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        //TODO set amount of enemies
+        countEnemies = 2;
+
         currentScore = 0;
-        maximumHP = 3;
+        maximumHP = 5;
         currentHP = maximumHP;
-        scoreText.text = currentScore.ToString();
+        scoreText.text = "Score: " + currentScore.ToString();
+        healthText.text = currentHP + "/" + maximumHP;
+        healthSlider.value = getProcentualHealth();
     }
 
     // return the player ref
-    public GameObject getPlayer()
+    public GameObject GetPlayer()
     {
         return playerRef;
     }
@@ -54,16 +55,21 @@ public class GameStats : MonoBehaviour
     // apply damage
     public void GetDamage()
     {
-        if (currentHP - 1 <= 0)
+        if (!isDead)
         {
-            currentHP = 0;
-            Destroy(playerRef);
-        }
-        else
-        {
-            currentHP -= 1;
-        }
-        ChangeLife();
+            if (currentHP - 1 <= 0)
+            {
+                currentHP = 0;
+                isDead = true;
+                StartCoroutine(EndGame(true));
+            }
+            else
+            {
+                currentHP -= 1;
+            }
+            healthSlider.value = getProcentualHealth();
+            healthText.text = currentHP + "/" + maximumHP;
+        }        
     }
 
     // heal character
@@ -81,53 +87,47 @@ public class GameStats : MonoBehaviour
         {
             currentHP += heal;
         }
-        ChangeLife();
+        healthSlider.value = getProcentualHealth();
+        healthText.text = currentHP + "/" + maximumHP;
     }
 
     // increase the score of the player
     public void IncreaseScore(int amount)
     {
+        countEnemies--;
         if (amount < 0)
         {
             amount *= (-1);
         }
         currentScore += amount;
-        scoreText.text = currentScore.ToString();
+        scoreText.text = "Score: " + currentScore.ToString();
+        if (countEnemies <= 0)
+        {
+            StartCoroutine(EndGame(false));
+        }
     }
 
-    // set the lifepoint images
-    private void ChangeLife()
+    // ends the game and plays a different sound depending on whether you have won or lost
+    private IEnumerator EndGame(bool death)
     {
-        switch (currentHP)
+        if (death)
         {
-            case 3:
-                {
-                    life3 = life;
-                    life2 = life;
-                    life1 = life;
-                    break;
-                }
-            case 2:
-                {
-                    life3 = noLife;
-                    life2 = life;
-                    life1 = life;
-                    break;
-                }
-            case 1:
-                {
-                    life3 = noLife;
-                    life2 = noLife;
-                    life1 = life;
-                    break;
-                }
-            case 0:
-                {
-                    life3 = noLife;
-                    life2 = noLife;
-                    life1 = noLife;
-                    break;
-                }
+            currentSound.clip = loseClip;
+            Destroy(playerRef);
         }
+        else
+        {
+            currentSound.clip = winClip;
+        }
+        currentSound.Play();
+        float fLength = currentSound.clip.length;
+        yield return new WaitForSeconds(fLength);
+        SceneManager.LoadScene(0);
+    }
+
+    // return the procentual health with 1 -> 100% and 0 -> 0% and 0.5 -> 50%
+    private float getProcentualHealth()
+    {
+        return ((float)currentHP / (float)maximumHP);
     }
 }

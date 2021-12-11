@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1932884339986802949}
   - component: {fileID: 2711566151652597291}
-  - component: {fileID: -1174619294521270081}
-  - component: {fileID: 4317829221208415357}
+  - component: {fileID: -4402819047561638912}
+  - component: {fileID: -945308076349220730}
   m_Layer: 0
-  m_Name: ProjectileNPC
+  m_Name: ProjectileNormal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ownerPlayer: 0
---- !u!50 &-1174619294521270081
+--- !u!50 &-4402819047561638912
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -68,7 +68,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &4317829221208415357
+--- !u!61 &-945308076349220730
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,7 +92,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.3}
+  m_Size: {x: 0.05, y: 0.3}
   m_EdgeRadius: 0
 --- !u!1 &7712023486407314660
 GameObject:
@@ -120,7 +120,7 @@ Transform:
   m_GameObject: {fileID: 7712023486407314660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.76551664}
-  m_LocalScale: {x: 0.1, y: 0.3, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1932884339986802949}
   m_RootOrder: 0
@@ -167,7 +167,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.07825739, b: 0, a: 1}
+  m_Color: {r: 0, g: 0.8937564, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

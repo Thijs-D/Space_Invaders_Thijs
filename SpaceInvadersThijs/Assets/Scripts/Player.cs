@@ -5,11 +5,17 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // public variables
-    public GameObject projectile;
+    public GameObject projectileNormal;
+    public GameObject projectileDouble;
+    public GameObject projectileTriple;
+    public AudioClip projectileClip;
 
     // private variables
+    private enum attackType {NORMAL, DOUBLE, TRIPLE};
+    private attackType currentAttackType = attackType.NORMAL;
+    private AudioSource currentSound;
     private int moveSpeed;
-    private int attackSpeed;
+    private float attackSpeed;
     private int speedBoost;
     private int projectileSpeed;
     private bool doAttack;
@@ -20,21 +26,24 @@ public class Player : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        attackSpeed = 3;
-        moveSpeed = 2;
-        projectileSpeed = 3;
+        currentSound = gameObject.AddComponent<AudioSource>();
+        attackSpeed = 0.5f;
+        moveSpeed = 3;
+        projectileSpeed = 10;
         speedBoost = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
+        // move the player
         float moveDirection = Input.GetAxis("Horizontal");
         if (moveDirection != 0)
         {
             direction = new Vector2(moveDirection * moveSpeed, body.velocity.y);
             MovePlayer();
         }
+        // start attack
         if (!doAttack && Input.GetAxis("Fire1") != 0)
         {
             StartCoroutine(StartAttack());
@@ -47,12 +56,13 @@ public class Player : MonoBehaviour
         transform.Translate(moveSpeed * Time.deltaTime * direction);
     }
 
-    // activate the boost
+    // activates the boost and sets a duration
     public void ActivateBoost(int duration)
     {
-        StartBoost(duration);
+        StartCoroutine(StartBoost(duration));
     }
 
+    // starts the boost and resets it after the time has elapsed
     IEnumerator StartBoost(int duration)
     {
         speedBoost = 2;
@@ -60,20 +70,61 @@ public class Player : MonoBehaviour
         speedBoost = 0;
     }
 
+    public void SetGun()
+    {
+        if (currentAttackType == attackType.NORMAL)
+        {
+            currentAttackType = attackType.DOUBLE;
+        }
+        else if (currentAttackType == attackType.DOUBLE)
+        {
+            currentAttackType = attackType.TRIPLE;
+        }
+    }
+
     // set the attack variable and start the attack
     IEnumerator StartAttack()
     {
         doAttack = true;
         Attack();
-        yield return new WaitForSeconds(attackSpeed - speedBoost);
+        if (speedBoost < 1)
+        {
+            speedBoost = 1;
+        }
+        yield return new WaitForSeconds(attackSpeed / speedBoost);
         doAttack = false;
     }
 
     // spawn projectiles and attack the enemies
     private void Attack()
     {
-        GameObject currentProjectile = Instantiate(projectile, transform.position, Quaternion.identity);
-        currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0,1) * projectileSpeed;
+        GameObject currentProjectile;
+        switch (currentAttackType)
+        {
+            case attackType.NORMAL:
+                {
+                    currentProjectile = Instantiate(projectileNormal, transform.position, Quaternion.identity);
+                    break;
+                }
+            case attackType.DOUBLE:
+                {
+                    currentProjectile = Instantiate(projectileDouble, transform.position, Quaternion.identity);
+                    break;
+                }
+            case attackType.TRIPLE:
+                {
+                    currentProjectile = Instantiate(projectileTriple, transform.position, Quaternion.identity);
+                    break;
+                }
+            default:
+                {
+                    currentProjectile = Instantiate(projectileNormal, transform.position, Quaternion.identity);
+                    break;
+                }
+        }
+        currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 1) * projectileSpeed;
         currentProjectile.GetComponent<Projectile>().ownerPlayer = true;
+        currentSound.clip = projectileClip;
+        currentSound.Play();
     }
 }
