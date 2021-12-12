@@ -12,6 +12,8 @@ public class GameStats : MonoBehaviour
     public AudioClip loseClip;
     public AudioClip deathClip;
     public Text scoreText;
+    public Text AliveText;
+    public Text WaveText;
     public Text healthText;
     public Slider healthSlider;
     public Spawner spawnerRef;
@@ -41,11 +43,8 @@ public class GameStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //TODO set amount of enemies
-        countEnemies = 2;
-
         currentScore = 0;
-        maximumHP = 5;
+        maximumHP = 10;
         currentHP = maximumHP;
         scoreText.text = "Score: " + currentScore.ToString();
         healthText.text = currentHP + "/" + maximumHP;
@@ -102,6 +101,7 @@ public class GameStats : MonoBehaviour
     public void IncreaseScore(int amount)
     {
         countEnemies--;
+        AliveText.text = "Alive: " + countEnemies;
         if (amount < 0)
         {
             amount *= (-1);
@@ -143,5 +143,14 @@ public class GameStats : MonoBehaviour
     private float getProcentualHealth()
     {
         return ((float)currentHP / (float)maximumHP);
+    }
+
+    // sets the new values for the next wave
+    public void SetWaveStats(int pAmount, int pWave)
+    {
+        countEnemies = pAmount;
+        countWaves = pWave;
+        AliveText.text = "Alive: " + countEnemies;
+        WaveText.text = "Wave: " + countWaves;
     }
 }

@@ -14,12 +14,14 @@ public class Projectile : MonoBehaviour
         StartCoroutine(LifeTime(5));
     }
 
+    // Self-destructs after the time has elapsed
     IEnumerator LifeTime(int pLifetime)
     {
         yield return new WaitForSeconds(pLifetime);
         Destroy(gameObject);
     }
 
+    // Inflicts damage on the opponent when hit
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (ownerPlayer && collision.CompareTag("NPC"))

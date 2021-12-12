@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPC_Boss : NPC
+public class NPC_Hard : NPC
 {
     // create new NPC
-    protected NPC_Boss() : base(60, 2, 0.5f, 5, 0.1f, 500, AlienTypes.BOSS)
+    protected NPC_Hard() : base(12, 1, 0.5f, 5, 0.2f, 300, AlienTypes.HARD)
     {
 
     }

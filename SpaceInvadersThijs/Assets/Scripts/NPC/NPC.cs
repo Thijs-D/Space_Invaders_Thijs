@@ -9,32 +9,37 @@ public class NPC : MonoBehaviour
     public GameObject itemPowerUp;
     public GameObject itemGun;
     public GameObject projectile;
+    public GameObject projectileR;
+    public GameObject projectileL;
     public AudioClip projectileClip;
     public AudioClip deathClip;
 
     // private variables
+    protected enum AlienTypes {NORMAL, MEDIUM, HARD, BOSS};
+    private  AlienTypes alientype;
     private Rigidbody2D body;
     private AudioSource currentSound;
     private int maximumHP;
     private int currentHP;
     private int score;
+    private int damage;
     private float attackSpeed;
     private float projectileSpeed;
     private float moveSpeed;
     private bool doAttack;
     private bool isDead;
-    private bool isBoss;
 
     // construct a new NPC and set the variables
-    protected NPC(int pHP, float pAttackSpeed, float pProjectileSpeed, float pMoveSpeed, int pScore, bool pBoss)
+    protected NPC(int pHP, int pDamage, float pAttackSpeed, float pProjectileSpeed, float pMoveSpeed, int pScore, AlienTypes pType)
     {
         maximumHP = pHP;
+        damage = pDamage;
         currentHP = maximumHP;
         attackSpeed = pAttackSpeed;
         projectileSpeed = pProjectileSpeed;
         moveSpeed = pMoveSpeed;
         score = pScore;
-        isBoss = pBoss;
+        alientype = pType;
     }
 
     // Start is called before the first frame update
@@ -61,7 +66,8 @@ public class NPC : MonoBehaviour
         {
             if (currentHP - pAmount <= 0)
             {
-                currentHP = 0;                
+                currentHP = 0;
+                isDead = true;
                 StartCoroutine(Death());
             }
             else
@@ -71,6 +77,7 @@ public class NPC : MonoBehaviour
         }        
     }
 
+    // If the life points drop to zero, it destroys itself
     IEnumerator Death()
     {
         currentSound.clip = deathClip;
@@ -81,6 +88,7 @@ public class NPC : MonoBehaviour
         Destroy(gameObject);
     }
 
+    // if it is destroyed, an item spawns with a certain probability
     private void SpawnItem()
     {
         Vector3 spawnPoint = transform.position;
@@ -111,24 +119,57 @@ public class NPC : MonoBehaviour
 
     // spawn projectiles and attack the enemies
     private void Attack()
-    {        
-        GameObject currentProjectile = Instantiate(projectile, transform.position, Quaternion.identity);
-        currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -1) * projectileSpeed;
-        currentProjectile.GetComponent<Projectile>().damage = 1;
+    {
+        switch (alientype)
+        {
+            case AlienTypes.NORMAL:
+                {
+                    SpawnProjectile(projectile, transform.position, 0);
+                    break;
+                }
+            case AlienTypes.MEDIUM:
+                {
+                    SpawnProjectile(projectile, transform.position, 0);
+                    break;
+                }
+            case AlienTypes.HARD:
+                {
+                    Vector3 leftProjextile = transform.position;
+                    leftProjextile.x += 0.4f;
+                    Vector3 rightProjextile = transform.position;
+                    rightProjextile.x -= 0.4f;
+                    SpawnProjectile(projectileR, leftProjextile, 0.5f);
+                    SpawnProjectile(projectileL, rightProjextile, -0.5f);
+                    break;
+                }
+            case AlienTypes.BOSS:
+                {
+                    Vector3 leftProjextile = transform.position;
+                    leftProjextile.x += 0.8f;
+                    Vector3 rightProjextile = transform.position;
+                    rightProjextile.x -= 0.8f;
+                    SpawnProjectile(projectile, transform.position, 0);
+                    SpawnProjectile(projectile, leftProjextile, 0);
+                    SpawnProjectile(projectile, rightProjextile, 0);
+                    SpawnProjectile(projectileR, leftProjextile, 0.5f);
+                    SpawnProjectile(projectileL, rightProjextile, -0.5f);
+                    break;
+                }
+            default:
+                {
+                    SpawnProjectile(projectile, transform.position, 0);
+                    break;
+                }
+        }
+    }
+
+    // spawns the actual projectile
+    private void SpawnProjectile(GameObject pProjectile, Vector3 Pposition, float pDirection)
+    {
+        GameObject currentProjectile = Instantiate(pProjectile, Pposition, Quaternion.identity);
+        currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(pDirection, -1) * projectileSpeed;
+        currentProjectile.GetComponent<Projectile>().damage = damage;
         currentSound.clip = projectileClip;
         currentSound.Play();
-        if (isBoss)
-        {
-            Vector3 leftProjextile = transform.position;
-            leftProjextile.x += 0.8f;
-            Vector3 rightProjextile = transform.position;
-            rightProjextile.x -= 0.8f;
-            currentProjectile = Instantiate(projectile, leftProjextile, Quaternion.identity);
-            currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -1) * projectileSpeed;
-            currentProjectile.GetComponent<Projectile>().damage = 1;
-            currentProjectile = Instantiate(projectile, rightProjextile, Quaternion.identity);
-            currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -1) * projectileSpeed;
-            currentProjectile.GetComponent<Projectile>().damage = 1;
-        }
     }
 }

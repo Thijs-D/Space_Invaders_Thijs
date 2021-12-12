@@ -5,7 +5,7 @@ using UnityEngine;
 public class NPC_Medium : NPC
 {
     // create new NPC
-    protected NPC_Medium() : base(10, 1, 5, 0.1f, 200, false)
+    protected NPC_Medium() : base(6, 2, 1, 5, 0.1f, 200, AlienTypes.MEDIUM)
     {
 
     }

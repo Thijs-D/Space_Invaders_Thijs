@@ -15,6 +15,7 @@ public class Spawner : MonoBehaviour
     // private variables
     private Vector3 spawnPoint;
     private float x;
+    private float y;
     private float minDistance;
     private int amount;
     private int alreadySpawned;
@@ -24,7 +25,7 @@ public class Spawner : MonoBehaviour
     {
         GameStats.gameStatsRef.spawnerRef = this;
         currentWave = 1;
-        minDistance = 1;
+        minDistance = 0.5f;
         StartWave();
     }
 
@@ -33,15 +34,18 @@ public class Spawner : MonoBehaviour
     {
         amount = currentWave * 2;
         alreadySpawned = 0;
-        GameStats.gameStatsRef.countEnemies = amount;
-        GameStats.gameStatsRef.countWaves = currentWave;
-        if (currentWave == 5)
+        if (currentWave % 5 == 0)
         {
-            SpawnPosition();
-            Instantiate(alienBoss, spawnPoint, Quaternion.identity);
+            GameStats.gameStatsRef.SetWaveStats(currentWave / 5, currentWave);
+            for (int i = 0; i < (currentWave / 5); i++)
+            {
+                SpawnPosition();
+                Instantiate(alienBoss, spawnPoint, Quaternion.identity);
+            }
         }
         else
         {
+            GameStats.gameStatsRef.SetWaveStats(amount, currentWave);
             if (amount <= 5)
             {
                 InstantiateAlien(amount);
@@ -85,7 +89,7 @@ public class Spawner : MonoBehaviour
             alreadySpawned += spawn;
         }
         InstantiateAlien(spawn);
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         if (alreadySpawned < amount)
         {
             StartCoroutine(InstantiateInWaves());
@@ -119,7 +123,9 @@ public class Spawner : MonoBehaviour
     {
         spawnPoint = transform.position;
         x = Random.Range(-8f, 8f);
+        y = Random.Range(-0.75f, 1.25f);
         spawnPoint.x += x;
+        spawnPoint.y += y;
         spawnPoint.z = 0;
         Collider2D[] neighbours = Physics2D.OverlapCircleAll(spawnPoint, minDistance);
         if (neighbours.Length > 0)

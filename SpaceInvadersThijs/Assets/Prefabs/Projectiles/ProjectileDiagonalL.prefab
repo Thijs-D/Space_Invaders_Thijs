@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -4402819047561638912}
   - component: {fileID: -945308076349220730}
   m_Layer: 0
-  m_Name: ProjectileNormal
+  m_Name: ProjectileDiagonalL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,13 +119,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7712023486407314660}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.19509031, w: 0.98078537}
   m_LocalPosition: {x: 0, y: 0, z: 0.76551664}
   m_LocalScale: {x: 0.05, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1932884339986802949}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22.5}
 --- !u!212 &8056338879812422839
 SpriteRenderer:
   m_ObjectHideFlags: 0

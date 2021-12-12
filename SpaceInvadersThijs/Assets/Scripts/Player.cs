@@ -5,13 +5,13 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // public variables
-    public GameObject projectileNormal;
-    public GameObject projectileDouble;
-    public GameObject projectileTriple;
+    public GameObject projectile;
+    public GameObject projectileL;
+    public GameObject projectileR;
     public AudioClip projectileClip;    
 
     // private variables
-    private enum attackType {NORMAL, DOUBLE, TRIPLE};
+    private enum attackType {NORMAL, DOUBLE, TRIPLE, ULTIMATE, ULTRA};
     private attackType currentAttackType = attackType.NORMAL;
     private AudioSource currentSound;
     private int moveSpeed;
@@ -65,20 +65,41 @@ public class Player : MonoBehaviour
     // starts the boost and resets it after the time has elapsed
     IEnumerator StartBoost(int duration)
     {
-        speedBoost = 2;
+        speedBoost = Random.Range(2,5);
         yield return new WaitForSeconds(duration);
         speedBoost = 0;
     }
 
+    // When a weapon item is collected, the current weapon is exchanged for a better one
     public void SetGun()
     {
-        if (currentAttackType == attackType.NORMAL)
+        switch (currentAttackType)
         {
-            currentAttackType = attackType.DOUBLE;
-        }
-        else if (currentAttackType == attackType.DOUBLE)
-        {
-            currentAttackType = attackType.TRIPLE;
+            case attackType.NORMAL:
+                {
+                    currentAttackType = attackType.DOUBLE;
+                    break;
+                }
+            case attackType.DOUBLE:
+                {
+                    currentAttackType = attackType.TRIPLE;
+                    break;
+                }
+            case attackType.TRIPLE:
+                {
+                    currentAttackType = attackType.ULTIMATE;
+                    break;
+                }
+            case attackType.ULTIMATE:
+                {
+                    currentAttackType = attackType.ULTRA;
+                    break;
+                }
+            default:
+                {
+                    currentAttackType = attackType.ULTRA;
+                    break;
+                }
         }
     }
 
@@ -98,35 +119,60 @@ public class Player : MonoBehaviour
     // spawn projectiles and attack the enemies
     private void Attack()
     {
-        GameObject currentProjectile;
+        Vector3 leftProjextile = transform.position;
+        leftProjextile.x += 0.2f;
+        Vector3 rightProjextile = transform.position;
+        rightProjextile.x -= 0.2f;
         switch (currentAttackType)
         {
             case attackType.NORMAL:
                 {
-                    currentProjectile = Instantiate(projectileNormal, transform.position, Quaternion.identity);
-                    currentProjectile.GetComponent<Projectile>().damage = 1;
+                    SpawnProjectile(projectile, transform.position, 0, 1);
                     break;
                 }
             case attackType.DOUBLE:
                 {
-                    currentProjectile = Instantiate(projectileDouble, transform.position, Quaternion.identity);
-                    currentProjectile.GetComponent<Projectile>().damage = 2;
+                    SpawnProjectile(projectile, leftProjextile, 0, 1);
+                    SpawnProjectile(projectile, rightProjextile, 0, 1);
                     break;
                 }
             case attackType.TRIPLE:
                 {
-                    currentProjectile = Instantiate(projectileTriple, transform.position, Quaternion.identity);
-                    currentProjectile.GetComponent<Projectile>().damage = 3;
+                    SpawnProjectile(projectile, transform.position, 0, 1);
+                    SpawnProjectile(projectile, leftProjextile, 0, 1);
+                    SpawnProjectile(projectile, rightProjextile, 0, 1);
+                    break;
+                }
+            case attackType.ULTIMATE:
+                {
+                    SpawnProjectile(projectile, transform.position, 0, 2);
+                    SpawnProjectile(projectile, leftProjextile, 0, 2);
+                    SpawnProjectile(projectile, rightProjextile, 0, 2);
+                    break;
+                }
+            case attackType.ULTRA:
+                {
+                    SpawnProjectile(projectile, transform.position, 0, 2);
+                    SpawnProjectile(projectile, leftProjextile, 0, 2);
+                    SpawnProjectile(projectile, rightProjextile, 0, 2);
+                    SpawnProjectile(projectileR, leftProjextile, 0.5f, 2);
+                    SpawnProjectile(projectileL, rightProjextile, -0.5f, 2);
                     break;
                 }
             default:
                 {
-                    currentProjectile = Instantiate(projectileNormal, transform.position, Quaternion.identity);
-                    currentProjectile.GetComponent<Projectile>().damage = 1;
+                    SpawnProjectile(projectile, transform.position, 0, 1);
                     break;
                 }
         }
-        currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 1) * projectileSpeed;
+    }
+
+    // spawns the actual projectile
+    private void SpawnProjectile(GameObject pProjectile, Vector3 Pposition, float pDirection, int pDamage)
+    {
+        GameObject currentProjectile = Instantiate(pProjectile, Pposition, Quaternion.identity);
+        currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(pDirection, 1) * projectileSpeed;
+        currentProjectile.GetComponent<Projectile>().damage = pDamage;
         currentProjectile.GetComponent<Projectile>().ownerPlayer = true;
         currentSound.clip = projectileClip;
         currentSound.Play();

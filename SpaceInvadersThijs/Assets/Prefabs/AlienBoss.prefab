@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7170458515558425704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.8352575, y: -1.8299708, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -102,6 +102,8 @@ MonoBehaviour:
   itemPowerUp: {fileID: 3142867162337841150, guid: a41e88cd48228164e99b1eee3e903feb, type: 3}
   itemGun: {fileID: 5677000048443551935, guid: 282097bc5b14d9f4eaddc23ec6d47459, type: 3}
   projectile: {fileID: 7397128724653318905, guid: 5fa922a2f3f0a254992c19d56c74829b, type: 3}
+  projectileR: {fileID: 7397128724653318905, guid: e9a34cf3f71a76f4ca4b00ba9c82f6ac, type: 3}
+  projectileL: {fileID: 7397128724653318905, guid: 23b3eaff81fde514bbd1ffaddc52dd62, type: 3}
   projectileClip: {fileID: 8300000, guid: acbe31fb1a434d344a10fe5c3fb71c74, type: 3}
   deathClip: {fileID: 8300000, guid: 187bcbd9eaf5a2a4ea90bd9c0bc850cb, type: 3}
 --- !u!50 &501606974292442306
