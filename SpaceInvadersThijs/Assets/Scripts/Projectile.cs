@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
     // public variables
     public bool ownerPlayer;
+    public int damage;
 
     // set lifetime of the procetile
     private void Start()
@@ -23,12 +24,12 @@ public class Projectile : MonoBehaviour
     {
         if (ownerPlayer && collision.CompareTag("NPC"))
         {
-            collision.GetComponent<NPC>().GetDamage();
+            collision.GetComponent<NPC>().GetDamage(damage);
             Destroy(gameObject);
         }
         else if (!ownerPlayer && collision.CompareTag("Player"))
         {
-            GameStats.gameStatsRef.GetDamage();
+            GameStats.gameStatsRef.GetDamage(damage);
             Destroy(gameObject);
         }
     }

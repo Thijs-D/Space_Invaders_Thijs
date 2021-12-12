@@ -5,7 +5,7 @@ using UnityEngine;
 public class NPC_Normal : NPC
 {
     // create new NPC
-    protected NPC_Normal(): base(3, 2, 5, 0.1f, 100)
+    protected NPC_Normal() : base(3, 2, 5, 0.1f, 100, false)
     {
 
     }

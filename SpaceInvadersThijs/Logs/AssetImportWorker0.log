@@ -3554,3 +3554,1116 @@ System memory in use after: 140.2 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4506.
 Total: 2.550200 ms (FindLiveObjects: 0.297800 ms CreateObjectMapping: 0.156300 ms MarkObjects: 2.004300 ms  DeleteObjects: 0.090900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 8235.500331 seconds.
+  path: Assets/Prefabs/AlienNormal.png
+  artifactKey: Guid(f99ccfe53f2ca214fa17298ee79e3382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.png using Guid(f99ccfe53f2ca214fa17298ee79e3382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0187e3df9f483d6d64e3374e3b58c754') in 0.057994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.349585 seconds.
+  path: Assets/Sprites/AlienNormal.png
+  artifactKey: Guid(f99ccfe53f2ca214fa17298ee79e3382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AlienNormal.png using Guid(f99ccfe53f2ca214fa17298ee79e3382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72980ab0393395163515cc52e9d4937') in 0.009549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.355075 seconds.
+  path: Assets/Sprites/AlienNormal.png
+  artifactKey: Guid(f99ccfe53f2ca214fa17298ee79e3382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AlienNormal.png using Guid(f99ccfe53f2ca214fa17298ee79e3382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84f094565ddce9faca989e0672fc9d6') in 0.021065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.144507 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136de940bf56b5548f337dded5fa0d63') in 0.034393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.673220 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f762b8d1e4c4893fa56039973e88c085') in 0.009378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.265268 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51a65ed292ee1cf13db0a9b9b0e946b') in 0.008712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.473409 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2f10916820cdd6eafcba231a42aaa1') in 0.010338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.144504 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee4e02f5cd1de00ea9ee77780de82f4') in 0.007337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.135446 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe5cf191107d51b3f36ffe15a8d4611') in 0.008926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.681406 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973ca91ffd77ca5904f7fc0de01594c5') in 0.008081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.189073 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7065cd257221767a052816cb03ea729') in 0.010333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.216240 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51432bdb79b163024b2c212c5399d102') in 0.008020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835807 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62aa80c90234b228daf5952d4b1e6df') in 0.006883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628653 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7ab340f8f838f48178015cef961e6b') in 0.006717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.395619 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88abecb06b40ab68896c0a35c31f8a64') in 0.007355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.805785 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e2725eca03f1f34c97c5714acae702') in 0.011207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.431640 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453f0aca8d78befc19e7600c81733fc1') in 0.009895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.411154 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b879895ace5c8ab5eade9cda7b0d1c') in 0.010000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.039125 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0e17b06fb418a7788620e4488c8562') in 0.010695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.606014 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07bbee803bb42197ed48a97b5df1983') in 0.007832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.403517 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd269949fd0b127cd7653cc342597fb') in 0.006945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.608622 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fede0734c3a11c02fb511068629cdd12') in 0.007474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.294302 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8bc45ebab8270a4d38d64e69c886a5') in 0.006872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.743504 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6bb4e74f8598c37aa2cc3f39230568') in 0.010347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.188831 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cc86f1e949ecdaf88a1103e2e2c4a0') in 0.007999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.275388 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934d72bbd80f9ed12a979e32d6d1bb76') in 0.009361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.802400 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16edf75892325658ca961d56813fe938') in 0.011473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.265543 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab22d89209fd3cee57bd6d994a568f38') in 0.010066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.315332 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b236a792edebbc52b8b1a99fb75b0eb2') in 0.008968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.130837 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f29cac8a2352bc08a19ec38cc52b99e') in 0.010217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.497667 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737459767d9251afc4d6ce65937439d6') in 0.008655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.188111 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cedcd67485e96645ae0a0f745ac505') in 0.009354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.686329 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7403db2163c1524922f0f347212cc4') in 0.009152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.065604 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768c62e9f730d8aedab04d15d955c464') in 0.011830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.474220 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18556e3a96603e5f8591d3f2a73225b3') in 0.009433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.820146 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3aaa0e18830b0154681bebe1401feb') in 0.012701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.411469 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e637de3b423116a6d7371757523fb5') in 0.009431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.698511 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c8a0bf5a6a4746531ef35792015224') in 0.008216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.945318 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116007a7aa4ed4a63792e6422551998e') in 0.009607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.167186 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7076a80ee81027a1763e9db3894862') in 0.011098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.892903 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3295c71d6564ca58a64f7ee806eaa4') in 0.009276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.292017 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16c853fee3eac6f0db4983692ede47f') in 0.008216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.186274 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c52ed3b178529ed4ee4531f5c7baac') in 0.010517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.327486 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e7781561cf0c267034883f24472d20') in 0.012462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.070526 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d52f91bad918f979d1d4ee027799f7') in 0.010410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.715138 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d443f706095af5787b13e18877b526') in 0.010248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.989694 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f29fe81f0ff61625b7dc900cccab7e0') in 0.011026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.946905 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811f48cd5e85fbe1f493aaf678ba8c63') in 0.010797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.026390 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4448e7452bc5814b72c01914872608b3') in 0.007485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.127756 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0a41e92e94fd81c1c6fec44f20d6e5') in 0.008414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.897184 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5007ca7029b10e571e0e6fb836ae3925') in 0.009030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.691505 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3b5d8c97c3a57ad683ca4404044a2d') in 0.009319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.843891 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ae2bea87dc19fce3c95220b32403a5') in 0.011751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.589001 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47adeff47b2f875b85c764983e18c4f1') in 0.010371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.339510 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74ae89451fe2ccc831a18a10c0aec37') in 0.009243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.737680 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86e6c6d2cd8c5612e9fe9a4b42b456d') in 0.007991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.641187 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6127f2452f91bd547134d9645ad86a6') in 0.008648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.200286 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d7704e8e93091525014a02d54d185f') in 0.008674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.308598 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98639a40009b2fdc2740ae94777d94f8') in 0.011684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.376176 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d528e6550931a4db2a800cc179bf03f') in 0.010150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.606652 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ab2d452a52a698d3fccad7b34b6080') in 0.008049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.653576 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c74d3c83d4e50005a4180d4a1bd495') in 0.009782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.280036 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5186f8ccd43a65313012480015b9644') in 0.011174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.910245 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0518450a211cba8ceaeada14aeb2c5') in 0.009600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.824006 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf036a84f4e29679bed67a6c3d7c7bc1') in 0.013008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.216396 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04c1e4e1d7cd73ac090e36eae1b66e2') in 0.008392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.559266 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9024de6489ca95d34cc302da7222ed') in 0.010098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.076395 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458cd1d1e494bfac42917b204395652e') in 0.013442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.637912 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066c2a9c933d4e40edbbec5eeec6f38f') in 0.009195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.714977 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa435a346c6a8e28a3c984c417da26f6') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.715916 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27c1834200cda1e99addd5cb53cb508') in 0.008551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.591934 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc367941e2b271bf3b96b96389adf67e') in 0.013812 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002972 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4554.
+Total: 2.394900 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.148700 ms MarkObjects: 1.866100 ms  DeleteObjects: 0.087100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.146990 seconds.
+  path: Assets/Prefabs/AlienNormal.prefab
+  artifactKey: Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AlienNormal.prefab using Guid(85903de7de1e00244aed17094e57a41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01b093d934ae0e5f68da02b8b13dab5') in 0.045034 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.224 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4560.
+Total: 3.231900 ms (FindLiveObjects: 0.360000 ms CreateObjectMapping: 0.183200 ms MarkObjects: 2.577000 ms  DeleteObjects: 0.110600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002459 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4564.
+Total: 3.943300 ms (FindLiveObjects: 0.639700 ms CreateObjectMapping: 0.414200 ms MarkObjects: 2.779700 ms  DeleteObjects: 0.107500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.967281 seconds.
+  path: Assets/ItemGun.cs
+  artifactKey: Guid(6431de0bbbb89c54792ae01048767cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ItemGun.cs using Guid(6431de0bbbb89c54792ae01048767cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e4617c6a93472df73b1be4a54ce6a6') in 0.012664 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002413 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4568.
+Total: 2.133500 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.134300 ms MarkObjects: 1.671500 ms  DeleteObjects: 0.072500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.810408 seconds.
+  path: Assets/Spawner.cs
+  artifactKey: Guid(8351288afe86969448356bcb7a716af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spawner.cs using Guid(8351288afe86969448356bcb7a716af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd22193258cf959d1979a73580cdaf2') in 0.010490 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4572.
+Total: 2.336700 ms (FindLiveObjects: 0.260700 ms CreateObjectMapping: 0.140800 ms MarkObjects: 1.856700 ms  DeleteObjects: 0.077800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.943526 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(2b26bd96a7c186a4bb1dfc5f45a2b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(2b26bd96a7c186a4bb1dfc5f45a2b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac2088914648d668fc2d2ecfdaad81d') in 0.007060 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4576.
+Total: 2.689100 ms (FindLiveObjects: 0.353400 ms CreateObjectMapping: 0.170600 ms MarkObjects: 2.070100 ms  DeleteObjects: 0.093600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1109.656926 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(2b26bd96a7c186a4bb1dfc5f45a2b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(2b26bd96a7c186a4bb1dfc5f45a2b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac265f2cf617a1c831f685530d4066cd') in 0.006356 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002484 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4580.
+Total: 2.433000 ms (FindLiveObjects: 0.268300 ms CreateObjectMapping: 0.140400 ms MarkObjects: 1.942500 ms  DeleteObjects: 0.081100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.031508 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(2b26bd96a7c186a4bb1dfc5f45a2b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spawner.cs using Guid(2b26bd96a7c186a4bb1dfc5f45a2b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48968efedc3d0df6ad753f9fa36ebe95') in 0.005332 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002356 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4584.
+Total: 2.591200 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.134600 ms MarkObjects: 2.084200 ms  DeleteObjects: 0.109900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002540 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4588.
+Total: 2.663600 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.142500 ms MarkObjects: 2.137400 ms  DeleteObjects: 0.082900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4592.
+Total: 2.338900 ms (FindLiveObjects: 0.280700 ms CreateObjectMapping: 0.142700 ms MarkObjects: 1.830800 ms  DeleteObjects: 0.084100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4596.
+Total: 2.278600 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.146800 ms MarkObjects: 1.773100 ms  DeleteObjects: 0.076000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002913 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4600.
+Total: 2.437400 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.129300 ms MarkObjects: 1.936000 ms  DeleteObjects: 0.076500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002472 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4604.
+Total: 2.509000 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.156500 ms MarkObjects: 1.971800 ms  DeleteObjects: 0.079100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002492 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4608.
+Total: 2.238200 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.134400 ms MarkObjects: 1.755800 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002721 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4612.
+Total: 2.351500 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.142000 ms MarkObjects: 1.831400 ms  DeleteObjects: 0.079400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002532 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.3 MB.
+System memory in use after: 141.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4616.
+Total: 2.300900 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.119600 ms MarkObjects: 1.807600 ms  DeleteObjects: 0.081400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002559 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4620.
+Total: 2.398300 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.141800 ms MarkObjects: 1.886500 ms  DeleteObjects: 0.082200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4624.
+Total: 2.737800 ms (FindLiveObjects: 0.334200 ms CreateObjectMapping: 0.131100 ms MarkObjects: 2.185400 ms  DeleteObjects: 0.086200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4628.
+Total: 4.576700 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.179400 ms MarkObjects: 3.937600 ms  DeleteObjects: 0.101200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002629 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4632.
+Total: 2.766600 ms (FindLiveObjects: 0.345400 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.178900 ms  DeleteObjects: 0.089800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Platform modules already initialized, skipping
+Callback registration failed. Increase kMaxCallback.
+
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+
+Crash!!!
+SymInit: Symbol-SearchPath: 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Mono;.;C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs;C:\GithubProjects\Space_Invaders_Thijs\SpaceInvadersThijs\Library\BurstCache\JIT;C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'thijs'
+OS-Version: 10.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe:Unity.exe (00007FF67D6E0000), size: 81633280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2021.1.7.6192
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF9673D0000), size: 2052096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1288
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF9654C0000), size: 778240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF964ED0000), size: 2916352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF964AF0000), size: 1400832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF9651A0000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF965AE0000), size: 1708032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF964EA0000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF965E30000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF964D90000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1110
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF965330000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.789
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FF8C97A0000), size: 10215424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.2.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\optix.6.0.0.dll:optix.6.0.0.dll (00007FF937700000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (00007FF8A1DD0000), size: 43806720 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF967100000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF965420000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.546
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF965FF0000), size: 634880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF965800000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1288
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF9664C0000), size: 7598080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF965A80000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FF8F82B0000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\etccompress.dll:etccompress.dll (00007FF8C9000000), size: 5066752 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF966C10000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF965EC0000), size: 1220608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
+C:\WINDOWS\System32\WLDAP32.dll:WLDAP32.dll (00007FF965E60000), size: 352256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FF966090000), size: 3493888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6414336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\System32\Normaliz.dll:Normaliz.dll (00007FF965C90000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FF965A50000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF966C80000), size: 4661248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1237
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FF8DFE80000), size: 1744896 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FF9653D0000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF961D80000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FF965300000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1023
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF965730000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.985
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF9652A0000), size: 393216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\tbb.dll:tbb.dll (00007FF9088E0000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF94C8E0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.24.28127.4
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF951D50000), size: 1200128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF95F220000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF963F40000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF95ABE0000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF95D0D0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF963360000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (00007FF8DD260000), size: 2535424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.1.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF95D890000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FF8C7370000), size: 8978432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.0
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF94C340000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.24.28127.4
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FF9642A0000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FF8EEC40000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FF8F7FB0000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FF901970000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.0.753.20342
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF948D10000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF9649B0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\OpenRL.dll:OpenRL.dll (00000238549A0000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000076EB0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000076DB0000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\embree.dll:embree.dll (00007FF8C6380000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (00000238555F0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF9646D0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF963370000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF964C50000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF961FA0000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
+C:\ProgramData\A-Volute\DellInc.AlienwareSoundCenter\Modules\ScheduledModules\x64\DellInc.AlienwareSoundCenterDevProps2.dll:DellInc.AlienwareSoundCenterDevProps2.dll (00007FF947430000), size: 1032192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.5.11.0
+C:\ProgramData\A-Volute\DellInc.AlienwareSoundCenter\Modules\ScheduledModules\x64\NahimicOSD.dll:NahimicOSD.dll (00007FF948F20000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.2.14.1193
+C:\ProgramData\A-Volute\DellInc.AlienwareSoundCenter\Modules\ScheduledModules\x64\ProductInfo.dll:ProductInfo.dll (00007FF961D20000), size: 135168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.9.0
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FF9672E0000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF962BD0000), size: 7929856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FF964540000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF964A30000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FF965CA0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF961990000), size: 253952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF95CD90000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF9664B0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.610
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF95D870000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF95D990000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF963F80000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF950960000), size: 520192 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1348
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF95D100000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FF8DB250000), size: 602112 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF95F990000), size: 2506752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1202
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF9633E0000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
+C:\WINDOWS\System32\DriverStore\FileRepository\nvdmi.inf_amd64_0b381fc0f46444bc\nvldumdx.dll:nvldumdx.dll (00007FF9173A0000), size: 1073152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.9709
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FF95B3C0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.906
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FF95B030000), size: 1351680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FF964890000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FF9644B0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FF9672C0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF964490000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FF963BB0000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1052
+C:\WINDOWS\System32\DriverStore\FileRepository\nvdmi.inf_amd64_0b381fc0f46444bc\nvwgf2umx.dll:nvwgf2umx.dll (00007FF8F4350000), size: 43167744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 30.0.14.9709
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FF8C46A0000), size: 2904064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.24.0.123
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF963900000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF9596B0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF95AAB0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF94E140000), size: 598016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1081
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF95AA70000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF94D900000), size: 1093632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF94D4B0000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.746
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF9649F0000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.572
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2110.6-0\MpOav.dll:MpOav.dll (00007FF94D380000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.2110.6
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\cudart64_90.dll:cudart64_90.dll (00007FF8D82E0000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FF8C9630000), size: 1474560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.1.0
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\radeonrays.dll:radeonrays.dll (00007FF8D8250000), size: 552960 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF8A1660000), size: 7790592 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FF966C00000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FF962910000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.1023
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\comctl32.dll:comctl32.dll (00007FF950EE0000), size: 2727936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.1110
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FF95BC80000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\Windows\System32\thumbcache.dll:thumbcache.dll (00007FF951EE0000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1151
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FF95EB50000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1
+C:\WINDOWS\SYSTEM32\policymanager.dll:policymanager.dll (00007FF9616C0000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1320
+C:\WINDOWS\SYSTEM32\msvcp110_win.dll:msvcp110_win.dll (00007FF963C40000), size: 565248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.546
+C:\Windows\System32\MrmCoreR.dll:MrmCoreR.dll (00007FF959570000), size: 1003520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.1266
+C:\Windows\System32\iertutil.dll:iertutil.dll (00007FF9561F0000), size: 2818048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.19041.1266
+C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FF950410000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.844
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF962720000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.867
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FF964F04F69 (KERNELBASE) RaiseException
+0x00007FF67E89F32C (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF67E89FBBE (Unity) EditorMonoConsole::LogToConsoleImplementation
+0x00007FF67FCB1008 (Unity) DebugStringToFilePostprocessedStacktrace
+0x00007FF67FCB07FB (Unity) DebugStringToFile
+0x00007FF67EC70D21 (Unity) LoadDomainAndUserAssemblies
+0x00007FF67EC7103C (Unity) LoadUserAssemblies
+0x00007FF67EE7C838 (Unity) <lambda_15c8da1c90a30e86cd2096f929d4dd2f>::operator()
+0x00007FF67EF03712 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF67EF05980 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF67EF0906E (Unity) asio::io_service::run
+0x00007FF67EEA551A (Unity) RunAssetImportWorkerClientV2
+0x00007FF67EEA5570 (Unity) RunAssetImporterV2
+0x00007FF67E9AC106 (Unity) Application::InitializeProject
+0x00007FF67EDB8837 (Unity) WinMain
+0x00007FF6808E5682 (Unity) __scrt_common_main_seh
+0x00007FF9654D7034 (KERNEL32) BaseThreadInitThunk
+0x00007FF967422651 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/thijs/AppData/Local/Temp/Unity/Editor/Crashes

@@ -10,14 +10,19 @@ public class GameStats : MonoBehaviour
     public static GameStats gameStatsRef;
     public AudioClip winClip;
     public AudioClip loseClip;
+    public AudioClip deathClip;
     public Text scoreText;
     public Text healthText;
     public Slider healthSlider;
+    public Spawner spawnerRef;
     public int countEnemies;
+    public int countWaves;
+    public int lastWave;
 
     // private variables
     private GameObject playerRef;
     private AudioSource currentSound;
+    private AudioSource deathSound;
     private bool isDead;
     private int maximumHP;
     private int currentHP;
@@ -30,6 +35,7 @@ public class GameStats : MonoBehaviour
         gameStatsRef = this;
         playerRef = GameObject.Find("Player");
         currentSound = gameObject.AddComponent<AudioSource>();
+        deathSound = gameObject.AddComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -53,19 +59,20 @@ public class GameStats : MonoBehaviour
     }
 
     // apply damage
-    public void GetDamage()
+    public void GetDamage(int pAmount)
     {
         if (!isDead)
         {
-            if (currentHP - 1 <= 0)
+            if (currentHP - pAmount <= 0)
             {
                 currentHP = 0;
                 isDead = true;
+                Destroy(playerRef);
                 StartCoroutine(EndGame(true));
             }
             else
             {
-                currentHP -= 1;
+                currentHP -= pAmount;
             }
             healthSlider.value = getProcentualHealth();
             healthText.text = currentHP + "/" + maximumHP;
@@ -103,7 +110,12 @@ public class GameStats : MonoBehaviour
         scoreText.text = "Score: " + currentScore.ToString();
         if (countEnemies <= 0)
         {
-            StartCoroutine(EndGame(false));
+            if (countWaves == lastWave)
+            {
+                StartCoroutine(EndGame(false));
+            }
+            spawnerRef.currentWave++;
+            spawnerRef.StartWave();
         }
     }
 
@@ -112,8 +124,10 @@ public class GameStats : MonoBehaviour
     {
         if (death)
         {
+            deathSound.clip = deathClip;
+            deathSound.Play();
             currentSound.clip = loseClip;
-            Destroy(playerRef);
+            currentSound.Play();
         }
         else
         {

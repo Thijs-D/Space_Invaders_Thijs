@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public GameObject projectileNormal;
     public GameObject projectileDouble;
     public GameObject projectileTriple;
-    public AudioClip projectileClip;
+    public AudioClip projectileClip;    
 
     // private variables
     private enum attackType {NORMAL, DOUBLE, TRIPLE};
@@ -104,21 +104,25 @@ public class Player : MonoBehaviour
             case attackType.NORMAL:
                 {
                     currentProjectile = Instantiate(projectileNormal, transform.position, Quaternion.identity);
+                    currentProjectile.GetComponent<Projectile>().damage = 1;
                     break;
                 }
             case attackType.DOUBLE:
                 {
                     currentProjectile = Instantiate(projectileDouble, transform.position, Quaternion.identity);
+                    currentProjectile.GetComponent<Projectile>().damage = 2;
                     break;
                 }
             case attackType.TRIPLE:
                 {
                     currentProjectile = Instantiate(projectileTriple, transform.position, Quaternion.identity);
+                    currentProjectile.GetComponent<Projectile>().damage = 3;
                     break;
                 }
             default:
                 {
                     currentProjectile = Instantiate(projectileNormal, transform.position, Quaternion.identity);
+                    currentProjectile.GetComponent<Projectile>().damage = 1;
                     break;
                 }
         }

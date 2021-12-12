@@ -215,6 +215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ownerPlayer: 0
+  damage: 3
 --- !u!50 &-4402819047561638912
 Rigidbody2D:
   serializedVersion: 4

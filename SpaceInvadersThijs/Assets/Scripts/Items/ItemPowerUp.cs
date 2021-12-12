@@ -22,7 +22,7 @@ public class ItemPowerUp : MonoBehaviour
     {        
         if (collision.CompareTag("Player"))
         {
-            duration = Random.Range(1, 4);
+            duration = Random.Range(3, 7);
             collision.GetComponent<Player>().ActivateBoost(duration);
             Destroy(gameObject);
         }

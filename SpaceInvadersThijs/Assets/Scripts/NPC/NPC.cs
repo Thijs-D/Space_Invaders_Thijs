@@ -10,6 +10,7 @@ public class NPC : MonoBehaviour
     public GameObject itemGun;
     public GameObject projectile;
     public AudioClip projectileClip;
+    public AudioClip deathClip;
 
     // private variables
     private Rigidbody2D body;
@@ -21,9 +22,11 @@ public class NPC : MonoBehaviour
     private float projectileSpeed;
     private float moveSpeed;
     private bool doAttack;
+    private bool isDead;
+    private bool isBoss;
 
     // construct a new NPC and set the variables
-    protected NPC(int pHP, float pAttackSpeed, float pProjectileSpeed, float pMoveSpeed, int pScore)
+    protected NPC(int pHP, float pAttackSpeed, float pProjectileSpeed, float pMoveSpeed, int pScore, bool pBoss)
     {
         maximumHP = pHP;
         currentHP = maximumHP;
@@ -31,6 +34,7 @@ public class NPC : MonoBehaviour
         projectileSpeed = pProjectileSpeed;
         moveSpeed = pMoveSpeed;
         score = pScore;
+        isBoss = pBoss;
     }
 
     // Start is called before the first frame update
@@ -44,26 +48,37 @@ public class NPC : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
-        if (!doAttack)
+        if (!doAttack && !isDead)
         {
             StartCoroutine(StartAttack());
         }
     }
 
     // apply damage
-    public void GetDamage()
+    public void GetDamage(int pAmount)
     {
-        if (currentHP - 1 <= 0)
+        if (!isDead)
         {
-            currentHP = 0;
-            GameStats.gameStatsRef.IncreaseScore(score);
-            SpawnItem();
-            Destroy(gameObject);
-        }
-        else
-        {
-            currentHP -= 1;
-        }
+            if (currentHP - pAmount <= 0)
+            {
+                currentHP = 0;                
+                StartCoroutine(Death());
+            }
+            else
+            {
+                currentHP -= pAmount;
+            }
+        }        
+    }
+
+    IEnumerator Death()
+    {
+        currentSound.clip = deathClip;
+        currentSound.Play();        
+        yield return new WaitForSeconds(currentSound.clip.length);
+        GameStats.gameStatsRef.IncreaseScore(score);
+        SpawnItem();
+        Destroy(gameObject);
     }
 
     private void SpawnItem()
@@ -89,17 +104,31 @@ public class NPC : MonoBehaviour
     {
         doAttack = true;
         Attack();
-        int randomDuration = Random.Range(-1, 3);
+        float randomDuration = Random.Range(-attackSpeed/2, attackSpeed*2);
         yield return new WaitForSeconds(attackSpeed + randomDuration);
         doAttack = false;
     }
 
     // spawn projectiles and attack the enemies
     private void Attack()
-    {
+    {        
         GameObject currentProjectile = Instantiate(projectile, transform.position, Quaternion.identity);
         currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -1) * projectileSpeed;
+        currentProjectile.GetComponent<Projectile>().damage = 1;
         currentSound.clip = projectileClip;
         currentSound.Play();
+        if (isBoss)
+        {
+            Vector3 leftProjextile = transform.position;
+            leftProjextile.x += 0.8f;
+            Vector3 rightProjextile = transform.position;
+            rightProjextile.x -= 0.8f;
+            currentProjectile = Instantiate(projectile, leftProjextile, Quaternion.identity);
+            currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -1) * projectileSpeed;
+            currentProjectile.GetComponent<Projectile>().damage = 1;
+            currentProjectile = Instantiate(projectile, rightProjextile, Quaternion.identity);
+            currentProjectile.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -1) * projectileSpeed;
+            currentProjectile.GetComponent<Projectile>().damage = 1;
+        }
     }
 }
