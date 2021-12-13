@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class NPC_Boss : NPC
 {
-    // create new NPC
+    /// creates a new NPC of type BOSS,
+    // the specific values can be read in the NPC class
     protected NPC_Boss() : base(60, 2, 0.5f, 5, 0.1f, 500, AlienTypes.BOSS)
     {
 
@@ -15,6 +16,7 @@ public class NPC_Boss : NPC
         // Start is called before the first frame update
         void Start()
     {
+        // base calls the parent class
         base.Start();
     }
 
@@ -23,6 +25,7 @@ public class NPC_Boss : NPC
         // Update is called once per frame
         void Update()
     {
+        // base calls the parent class
         base.Update();
     }
 }

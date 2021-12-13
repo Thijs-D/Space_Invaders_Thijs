@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NPC : MonoBehaviour
 {
     // public variables
+    public Slider healthSlider;
     public GameObject itemHealth;
     public GameObject itemPowerUp;
     public GameObject itemGun;
@@ -53,6 +55,8 @@ public class NPC : MonoBehaviour
     // Update is called once per frame
     protected void Update()
     {
+        // is only executed when an attack is not being carried out
+        // and only as long as the NPC is still alive
         if (!doAttack && !isDead)
         {
             StartCoroutine(StartAttack());
@@ -74,6 +78,7 @@ public class NPC : MonoBehaviour
             {
                 currentHP -= pAmount;
             }
+            healthSlider.value = getProcentualHealth();
         }        
     }
 
@@ -105,6 +110,12 @@ public class NPC : MonoBehaviour
         {
             Instantiate(itemHealth, spawnPoint, Quaternion.identity);
         }
+    }
+
+    // return the health in procent
+    private float getProcentualHealth()
+    {
+        return ((float)currentHP / (float)maximumHP);
     }
 
     // set the attack variable and start the attack

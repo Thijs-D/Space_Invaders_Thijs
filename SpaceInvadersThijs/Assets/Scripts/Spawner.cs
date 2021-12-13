@@ -34,6 +34,7 @@ public class Spawner : MonoBehaviour
     {
         amount = currentWave * 2;
         alreadySpawned = 0;
+        // Bosses spawn every fifth wave
         if (currentWave % 5 == 0)
         {
             GameStats.gameStatsRef.SetWaveStats(currentWave / 5, currentWave);
@@ -43,6 +44,7 @@ public class Spawner : MonoBehaviour
                 Instantiate(alienBoss, spawnPoint, Quaternion.identity);
             }
         }
+        // normal wave spawn
         else
         {
             GameStats.gameStatsRef.SetWaveStats(amount, currentWave);
@@ -102,19 +104,33 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < pAmount; i++)
         {
             SpawnPosition();
-            int j = Random.Range(0, 25);
-            if (j < 20 && j % 2 == 0)
+            if (currentWave > 2)
             {
-                Instantiate(alienNormal, spawnPoint, Quaternion.identity);
-            }
-            else if (j < 20 && j % 2 != 0)
-            {
-                Instantiate(alienMedium, spawnPoint, Quaternion.identity);
+                int j = Random.Range(0, 25);
+                if (j < 20 && j % 2 == 0)
+                {
+                    Instantiate(alienNormal, spawnPoint, Quaternion.identity);
+                }
+                else if (j < 20 && j % 2 != 0)
+                {
+                    Instantiate(alienMedium, spawnPoint, Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(alienHard, spawnPoint, Quaternion.identity);
+                }
             }
             else
             {
-                Instantiate(alienHard, spawnPoint, Quaternion.identity);
-            }
+                if (currentWave == 1)
+                {
+                    Instantiate(alienNormal, spawnPoint, Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(alienMedium, spawnPoint, Quaternion.identity);
+                }                
+            }            
         }
     }
 
@@ -127,6 +143,7 @@ public class Spawner : MonoBehaviour
         spawnPoint.x += x;
         spawnPoint.y += y;
         spawnPoint.z = 0;
+        // checks whether there is already another spaceship in the vicinity and if so, looks for a new spawn point
         Collider2D[] neighbours = Physics2D.OverlapCircleAll(spawnPoint, minDistance);
         if (neighbours.Length > 0)
         {

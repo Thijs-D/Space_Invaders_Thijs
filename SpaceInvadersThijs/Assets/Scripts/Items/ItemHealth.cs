@@ -22,6 +22,7 @@ public class ItemHealth : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            // random health value
             health = Random.Range(1,4);
             GameStats.gameStatsRef.HealPlayer(health);
             Destroy(gameObject);

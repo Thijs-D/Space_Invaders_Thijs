@@ -57,16 +57,16 @@ public class Player : MonoBehaviour
     }
 
     // activates the boost and sets a duration
-    public void ActivateBoost(int duration)
+    public void ActivatePowerup(int pDuration)
     {
-        StartCoroutine(StartBoost(duration));
+        StartCoroutine(StartPowerup(pDuration));
     }
 
-    // starts the boost and resets it after the time has elapsed
-    IEnumerator StartBoost(int duration)
+    // starts the powerup and resets it after the time has elapsed
+    IEnumerator StartPowerup(int pDuration)
     {
         speedBoost = Random.Range(2,5);
-        yield return new WaitForSeconds(duration);
+        yield return new WaitForSeconds(pDuration);
         speedBoost = 0;
     }
 
@@ -123,6 +123,7 @@ public class Player : MonoBehaviour
         leftProjextile.x += 0.2f;
         Vector3 rightProjextile = transform.position;
         rightProjextile.x -= 0.2f;
+        // Depending on which attack type is currently selected, a different attack pattern is applied
         switch (currentAttackType)
         {
             case attackType.NORMAL:

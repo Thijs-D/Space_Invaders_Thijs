@@ -8,6 +8,7 @@ public class GameStats : MonoBehaviour
 {
     // public variables
     public static GameStats gameStatsRef;
+    public AudioClip music;
     public AudioClip winClip;
     public AudioClip loseClip;
     public AudioClip deathClip;
@@ -23,6 +24,7 @@ public class GameStats : MonoBehaviour
 
     // private variables
     private GameObject playerRef;
+    private AudioSource backgroundMusic;
     private AudioSource currentSound;
     private AudioSource deathSound;
     private bool isDead;
@@ -36,6 +38,7 @@ public class GameStats : MonoBehaviour
     {
         gameStatsRef = this;
         playerRef = GameObject.Find("Player");
+        backgroundMusic = gameObject.AddComponent<AudioSource>();
         currentSound = gameObject.AddComponent<AudioSource>();
         deathSound = gameObject.AddComponent<AudioSource>();
     }
@@ -49,6 +52,9 @@ public class GameStats : MonoBehaviour
         scoreText.text = "Score: " + currentScore.ToString();
         healthText.text = currentHP + "/" + maximumHP;
         healthSlider.value = getProcentualHealth();
+        backgroundMusic.clip = music;        
+        backgroundMusic.loop = true;
+        backgroundMusic.Play();
     }
 
     // return the player ref
@@ -60,6 +66,7 @@ public class GameStats : MonoBehaviour
     // apply damage
     public void GetDamage(int pAmount)
     {
+        // if the player is dead, the code should not be executed any further
         if (!isDead)
         {
             if (currentHP - pAmount <= 0)
@@ -108,14 +115,19 @@ public class GameStats : MonoBehaviour
         }
         currentScore += amount;
         scoreText.text = "Score: " + currentScore.ToString();
+        // When all opponents have been defeated, either the next wave is started
+        // or the game is ended if this was the last wave
         if (countEnemies <= 0)
         {
             if (countWaves == lastWave)
             {
                 StartCoroutine(EndGame(false));
             }
-            spawnerRef.currentWave++;
-            spawnerRef.StartWave();
+            else
+            {
+                spawnerRef.currentWave++;
+                spawnerRef.StartWave();
+            }            
         }
     }
 

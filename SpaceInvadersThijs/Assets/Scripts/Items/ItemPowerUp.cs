@@ -17,13 +17,14 @@ public class ItemPowerUp : MonoBehaviour
         body.velocity = new Vector2(0, -1) * moveSpeed;
     }
 
-    // if it collides with the player, the boost will be activated
+    // if it collides with the player, the powerup will be activated
     private void OnTriggerEnter2D(Collider2D collision)
     {        
         if (collision.CompareTag("Player"))
         {
+            // random duration for the powerup
             duration = Random.Range(3, 7);
-            collision.GetComponent<Player>().ActivateBoost(duration);
+            collision.GetComponent<Player>().ActivatePowerup(duration);
             Destroy(gameObject);
         }
     }
