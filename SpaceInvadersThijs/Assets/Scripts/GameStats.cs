@@ -14,6 +14,7 @@ public class GameStats : MonoBehaviour
     public AudioClip winClip;
     public AudioClip loseClip;
     public AudioClip deathClip;
+    public Text highScore;
     public Text scoreText;
     public Text AliveText;
     public Text WaveText;
@@ -51,7 +52,8 @@ public class GameStats : MonoBehaviour
         currentScore = 0;
         maximumHP = 10;
         currentHP = maximumHP;
-        scoreText.text = "Score: " + currentScore.ToString();
+        highScore.text = "High Score: " + PlayerPrefs.GetInt("HighScore", 0).ToString();
+        scoreText.text = "Your Score: " + currentScore.ToString();
         healthText.text = currentHP + "/" + maximumHP;
         healthSlider.value = getProcentualHealth();
         backgroundMusic.clip = music;        
@@ -116,7 +118,12 @@ public class GameStats : MonoBehaviour
             amount *= (-1);
         }
         currentScore += amount;
-        scoreText.text = "Score: " + currentScore.ToString();
+        scoreText.text = "Your Score: " + currentScore.ToString();
+        if (currentScore > PlayerPrefs.GetInt("HighScore", 0))
+        {
+            PlayerPrefs.SetInt("HighScore", currentScore);
+            highScore.text = "High Score: " + currentScore.ToString();
+        }
         // When all opponents have been defeated, either the next wave is started
         // or the game is ended if this was the last wave
         if (countEnemies <= 0)
@@ -148,7 +155,7 @@ public class GameStats : MonoBehaviour
         {
             panelw.SetActive(true);
             currentSound.clip = winClip;
-        }
+        }               
         currentSound.Play();
         float fLength = currentSound.clip.length;
         yield return new WaitForSeconds(fLength);
