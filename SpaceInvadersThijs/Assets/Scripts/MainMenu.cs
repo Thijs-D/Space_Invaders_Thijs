@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     public AudioClip clickSound;
 
     // private variables
-    private enum Buttons {START, CREDITS, RETURN, EXIT}
+    private enum Buttons {START, COOP, CREDITS, RETURN, EXIT}
     private AudioSource sound;
 
     // Start is called before the first frame update
@@ -25,6 +25,12 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         StartCoroutine(ButtonLogic(Buttons.START));
+    }
+
+    // OnClick StartGame Button
+    public void StartGameCOOP()
+    {
+        StartCoroutine(ButtonLogic(Buttons.COOP));
     }
 
     // OnClick Credits Button
@@ -55,6 +61,11 @@ public class MainMenu : MonoBehaviour
             case Buttons.START:
                 {
                     SceneManager.LoadScene(1);
+                    break;
+                }
+            case Buttons.COOP:
+                {
+                    SceneManager.LoadScene(2);
                     break;
                 }
             case Buttons.CREDITS:

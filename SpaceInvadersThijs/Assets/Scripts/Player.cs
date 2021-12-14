@@ -8,7 +8,8 @@ public class Player : MonoBehaviour
     public GameObject projectile;
     public GameObject projectileL;
     public GameObject projectileR;
-    public AudioClip projectileClip;    
+    public AudioClip projectileClip;
+    public bool player2;
 
     // private variables
     private enum attackType {NORMAL, DOUBLE, TRIPLE, ULTIMATE, ULTRA};
@@ -37,16 +38,32 @@ public class Player : MonoBehaviour
     void Update()
     {
         // move the player
-        float moveDirection = Input.GetAxis("Horizontal");
+        float moveDirection;
+        if (player2)
+        {
+            moveDirection = Input.GetAxis("Horizontal_Player2");
+        }
+        else
+        {
+            moveDirection = Input.GetAxis("Horizontal");
+        }
         if (moveDirection != 0)
         {
             direction = new Vector2(moveDirection * moveSpeed, body.velocity.y);
             MovePlayer();
         }
         // start attack
-        if (!doAttack && Input.GetAxis("Fire1") != 0)
+        if (!doAttack)
         {
-            StartCoroutine(StartAttack());
+            if (player2 && Input.GetAxis("Fire1_Player2") != 0)
+            {
+                StartCoroutine(StartAttack());
+            }
+            else if (!player2 && Input.GetAxis("Fire1") != 0)
+            {
+                StartCoroutine(StartAttack());
+            }
+            
         }
     }
 
