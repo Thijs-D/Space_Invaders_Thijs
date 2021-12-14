@@ -8,6 +8,8 @@ public class GameStats : MonoBehaviour
 {
     // public variables
     public static GameStats gameStatsRef;
+    public GameObject panelw;
+    public GameObject panelL;
     public AudioClip music;
     public AudioClip winClip;
     public AudioClip loseClip;
@@ -136,6 +138,7 @@ public class GameStats : MonoBehaviour
     {
         if (death)
         {
+            panelL.SetActive(true);
             deathSound.clip = deathClip;
             deathSound.Play();
             currentSound.clip = loseClip;
@@ -143,6 +146,7 @@ public class GameStats : MonoBehaviour
         }
         else
         {
+            panelw.SetActive(true);
             currentSound.clip = winClip;
         }
         currentSound.Play();
