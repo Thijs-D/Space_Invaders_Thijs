@@ -22,16 +22,26 @@ public class Player : MonoBehaviour
     private bool doAttack;
     private Rigidbody2D body;
     private Vector2 direction;
+    private Vector2 screenBounds;
+    private float playerWidth;
+    private float playerHeight;
 
     // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         currentSound = gameObject.AddComponent<AudioSource>();
+        
+        // set variables
         attackSpeed = 0.5f;
         moveSpeed = 3;
         projectileSpeed = 10;
         speedBoost = 0;
+
+        // Needed to prevent the player from flying out of the screen
+        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0));
+        playerWidth = transform.GetComponent<SpriteRenderer>().bounds.extents.x;
+        playerHeight = transform.GetComponent<SpriteRenderer>().bounds.extents.y;
     }
 
     // Update is called once per frame
@@ -71,6 +81,12 @@ public class Player : MonoBehaviour
     private void MovePlayer()
     {
         transform.Translate(moveSpeed * Time.deltaTime * direction);
+
+        // prevents the player from flying out of the screen
+        Vector3 boundPosition = transform.position;
+        boundPosition.x = Mathf.Clamp(boundPosition.x, screenBounds.x * -1 + playerWidth, screenBounds.x - playerWidth);
+        boundPosition.y = Mathf.Clamp(boundPosition.y, screenBounds.y * -1 + playerHeight, screenBounds.y - playerHeight);
+        transform.position = boundPosition;
     }
 
     // activates the boost and sets a duration
