@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2711566151652597291}
   - component: {fileID: -1174619294521270081}
   - component: {fileID: 4317829221208415357}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ProjectileNPCSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734158791784576404}
   - component: {fileID: 8056338879812422839}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -30,6 +30,8 @@ public class NPC : MonoBehaviour
     private float moveSpeed;
     private bool doAttack;
     private bool isDead;
+    // prevent method from being executed more than once
+    private readonly object balanceLock = new object();
 
     // construct a new NPC and set the variables
     protected NPC(int pHP, int pDamage, float pAttackSpeed, float pProjectileSpeed, float pMoveSpeed, int pScore, AlienTypes pType)
@@ -66,20 +68,24 @@ public class NPC : MonoBehaviour
     // apply damage
     public void GetDamage(int pAmount)
     {
-        if (!isDead)
+        // prevent method from being executed more than once
+        lock (balanceLock)
         {
-            if (currentHP - pAmount <= 0)
+            if (!isDead)
             {
-                currentHP = 0;
-                isDead = true;
-                StartCoroutine(Death());
+                if (currentHP - pAmount <= 0)
+                {
+                    currentHP = 0;
+                    isDead = true;
+                    StartCoroutine(Death());
+                }
+                else
+                {
+                    currentHP -= pAmount;
+                }
+                healthSlider.value = getProcentualHealth();
             }
-            else
-            {
-                currentHP -= pAmount;
-            }
-            healthSlider.value = getProcentualHealth();
-        }        
+        }             
     }
 
     // If the life points drop to zero, it destroys itself

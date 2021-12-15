@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2711566151652597291}
   - component: {fileID: -1174619294521270081}
   - component: {fileID: 4317829221208415357}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: ProjectileNPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ownerPlayer: 0
+  damage: 0
 --- !u!50 &-1174619294521270081
 Rigidbody2D:
   serializedVersion: 4
@@ -104,7 +105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734158791784576404}
   - component: {fileID: 8056338879812422839}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

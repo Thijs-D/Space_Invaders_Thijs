@@ -8,7 +8,11 @@ public class Spawner : MonoBehaviour
     public GameObject alienNormal;
     public GameObject alienMedium;
     public GameObject alienHard;
-    public GameObject alienBoss;    
+    public GameObject alienBoss;
+    public GameObject alienNormal2;
+    public GameObject alienMedium2;
+    public GameObject alienHard2;
+    public GameObject alienBoss2;
     public int maxWave;
     public int currentWave;
 
@@ -41,7 +45,15 @@ public class Spawner : MonoBehaviour
             for (int i = 0; i < (currentWave / 5); i++)
             {
                 SpawnPosition();
-                Instantiate(alienBoss, spawnPoint, Quaternion.identity);
+                // with a certain chance, an alien with a different design spawns
+                if (Random.Range(1, 11) == 10)
+                {
+                    Instantiate(alienBoss2, spawnPoint, Quaternion.identity);
+                }
+                else
+                {
+                    Instantiate(alienBoss, spawnPoint, Quaternion.identity);
+                }                
             }
         }
         // normal wave spawn
@@ -106,18 +118,45 @@ public class Spawner : MonoBehaviour
             SpawnPosition();
             if (currentWave > 2)
             {
+                // with a certain chance, an alien with a different design spawns
+                bool alternativeForm = false;
+                if(Random.Range(1, 5) == 4)
+                {
+                    alternativeForm = true;
+                }
                 int j = Random.Range(0, 25);
                 if (j < 20 && j % 2 == 0)
                 {
-                    Instantiate(alienNormal, spawnPoint, Quaternion.identity);
+                    if (alternativeForm)
+                    {
+                        Instantiate(alienNormal2, spawnPoint, Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(alienNormal, spawnPoint, Quaternion.identity);
+                    }                    
                 }
                 else if (j < 20 && j % 2 != 0)
                 {
-                    Instantiate(alienMedium, spawnPoint, Quaternion.identity);
+                    if (alternativeForm)
+                    {
+                        Instantiate(alienMedium2, spawnPoint, Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(alienMedium, spawnPoint, Quaternion.identity);
+                    }                    
                 }
                 else
                 {
-                    Instantiate(alienHard, spawnPoint, Quaternion.identity);
+                    if (alternativeForm)
+                    {
+                        Instantiate(alienHard2, spawnPoint, Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(alienHard, spawnPoint, Quaternion.identity);
+                    }  
                 }
             }
             else

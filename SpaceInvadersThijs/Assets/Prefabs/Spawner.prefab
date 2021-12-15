@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1694404954339844418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694404954339844412}
+  - component: {fileID: 1694404954339844413}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1694404954339844412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694404954339844418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694404954339844413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694404954339844418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b26bd96a7c186a4bb1dfc5f45a2b8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alienNormal: {fileID: 7009445404628251880, guid: 73f6d21a31dbcf346b14751285523a74, type: 3}
+  alienMedium: {fileID: 4103336765561313061, guid: 85903de7de1e00244aed17094e57a41a, type: 3}
+  alienHard: {fileID: 4876131590503643244, guid: 904ad35d281cfd349ad77883d12fc5f3, type: 3}
+  alienBoss: {fileID: 7170458515558425704, guid: 55e9563325efe0e489d2041f24daec2b, type: 3}
+  alienNormal2: {fileID: 7009445404628251880, guid: b0a581b9619c98b488df3cf30b10519d, type: 3}
+  alienMedium2: {fileID: 4103336765561313061, guid: bf07c0904390ec84fb291058bce091e2, type: 3}
+  alienHard2: {fileID: 4876131590503643244, guid: f917d7eb76751ea48a426970c2ab82d0, type: 3}
+  alienBoss2: {fileID: 7170458515558425704, guid: 8a49fe697be805947a38d1fb051405e0, type: 3}
+  maxWave: 10
+  currentWave: 0
